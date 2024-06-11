@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Crypto Coin Scraper
 
 This project is a Django-based web application that scrapes cryptocurrency data from CoinMarketCap using a Django REST API, Celery for task management, and BeautifulSoup for HTML parsing.
@@ -25,3 +26,7 @@ Start Scraping Task
 To start a scraping task, send a POST request to /api/taskmanager/start_scraping with a JSON payload containing a list of cryptocurrency acronyms.
 Check Scraping Status
 To check the status of a scraping task, send a GET request to /api/taskmanager/scraping_status/<job_id>.
+=======
+# RealTimeCoinScrapper
+This project is a Django-based web application that scrapes cryptocurrency data from CoinMarketCap using a Django REST API, Celery for task management, and BeautifulSoup for HTML parsing.
+>>>>>>> main
