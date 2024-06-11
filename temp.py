@@ -152,8 +152,8 @@ class CoinMarketCap:
         return self.parse_page(html_content)
     
 
-# cmc = CoinMarketCap()
+cmc = CoinMarketCap()
 
-# duko_data = cmc.scrape_coin("bitcoin")
+duko_data = cmc.scrape_coin("bitcoin")
 
-# print(duko_data)
+print(duko_data)
